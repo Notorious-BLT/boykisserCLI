@@ -1,0 +1,25 @@
+Usage: boykisser [command] [argument]
+
+Commands:
+    random-kiss - print out a random boykisser into the terminal.
+        Arguments:
+            -sfw: exclude NSFW ascii.
+            -nsfw: include NSFW ascii.
+    
+    find-kiss - print out one out of 32 boykisser ascii arts.
+        Arguments:
+            1-32: numeration for each boykisser ascii art.
+    
+    copy-random-kiss - copy a random boykisser into the clipboard.
+        Arguments:
+            -sfw: exclude NSFW ascii.
+            -nsfw: include NSFW ascii.
+    
+    copy-kiss - copy one out of 32 boykisser ascii arts.
+        Arguments:
+            1-32: numeration for each boykisser ascii art.
+
+    --help - print out usage help or locations for ascii sources.
+        Arguments:
+            usage: print out commands and arguments that can be used.
+            ascii_sources: print out a message with ascii sources locations.
